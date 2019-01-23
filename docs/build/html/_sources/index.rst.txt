@@ -9,6 +9,9 @@ Welcome to Gestpay M2's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   structure
+   demo_data
 
 
 
@@ -16,5 +19,7 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+
+.. * :ref:`modindex`
+
