@@ -115,7 +115,7 @@
           {% if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {% else %}
-            <a href="{{ pathto(master_doc) }}" class="icon icon-home"> {{ project }}
+            <a href="{{ pathto(master_doc) }}" class="icon"><!-- icon-home-->
           {% endif %}
 
           {% if logo %}
@@ -123,6 +123,10 @@
                it properly, without weird scripting or heaps of work
             #}
             <img src="{{ pathto('_static/' + logo, 1) }}" class="logo" alt="Logo"/>
+          {% endif %}
+                
+          {% if logo and not theme_logo_only %}
+            {{ project }}
           {% endif %}
           </a>
 
